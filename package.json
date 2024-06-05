@@ -14,10 +14,19 @@
   "contributes": {
     "commands": [
       {
-        "command": "copyfoldertree.helloWorld",
-        "title": "Hello World"
+        "command": "copyfoldertree.copy",
+        "title": "Copy Folder Tree to Text"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "sideBarVisible && sideBarFocus",
+          "command": "copyfoldertree.copy",
+          "group": "6_copypath"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
