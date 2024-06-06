@@ -4,13 +4,23 @@ This is the README for your extension "copyfoldertree". After writing up a brief
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Open explorer tab in the side bar to view folder structure
 
-For example if there is an image subfolder under your extension project workspace:
+![Folder structure](assets/folder_structure.png)
 
-\!\[feature X\]\(images/feature-x.png\)
+Right click on a folder you want to view the tree structure of in text format
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Context menu](assets/context_menu.png)
+
+Press on 'Copy Folder Tree to Text'
+
+![Mouse over selection in context menu](assets/mouse_over_selection_in_context_menu.png)
+
+![Folder tree copied to clipboard](assets/folder_tree_copied_to_clipboard.png)
+
+Paste the text folder tree structure anywhere you like.
+
+![Text view of folder structure](assets/text_view_of_folder_structure.png)
 
 ## Requirements
 
