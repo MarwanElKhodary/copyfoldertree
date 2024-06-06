@@ -1,11 +1,11 @@
 import * as vscode from 'vscode';
 
 async function getFolderStructure(uri: vscode.Uri, indent: string = '', isRoot: boolean = true): Promise<string> {
-	let structure = '';
-	
-	if (isRoot) {
-		structure += `${uri.path.split('/').pop()}\n`;
-	}
+    let structure = '';
+    
+    if (isRoot) {
+        structure += `${uri.path.split('/').pop()}`;
+    }
 
     const children = await vscode.workspace.fs.readDirectory(uri);
 
@@ -15,15 +15,16 @@ async function getFolderStructure(uri: vscode.Uri, indent: string = '', isRoot: 
 
         if (type === vscode.FileType.Directory) {
             const folderUri = vscode.Uri.joinPath(uri, name);
-            structure += `${indent}${isLast ? '└──' : '├──'} ${name}\n`;
+            structure += `\n${indent}${isLast ? '└──' : '├──'} ${name}`;
             structure += await getFolderStructure(folderUri, `${indent}${isLast ? '    ' : '│   '}`, false);
         } else {
-            structure += `${indent}${isLast ? '└──' : '├──'} ${name}\n`;
+            structure += `\n${indent}${isLast ? '└──' : '├──'} ${name}`;
         }
     }
 
     return structure;
 }
+
 
 export function activate(context: vscode.ExtensionContext) {
 
