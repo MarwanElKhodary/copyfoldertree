@@ -25,6 +25,12 @@
           "command": "copyfoldertree.copy",
           "group": "6_copypath"
         }
+      ],
+      "commandPalette": [
+        {
+          "command": "copyfoldertree.copy",
+          "when": "false"
+        }
       ]
     }
   },
