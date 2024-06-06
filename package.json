@@ -20,7 +20,7 @@
     "menus": {
       "explorer/context": [
         {
-          "when": "sideBarVisible && sideBarFocus",
+          "when": "explorerResourceIsFolder",
           "command": "copyfoldertree.copy",
           "group": "6_copypath"
         }
