@@ -1,7 +1,9 @@
 {
   "name": "copyfoldertree",
-  "displayName": "CopyFolderTree",
-  "description": "",
+  "displayName": "copyfoldertree",
+  "description": "Simplify copying your VS Code folder structure to text",
+  "publisher": "Marwan ElKhodary",
+  "repository": "https://github.com/MarwanElKhodary/copyfoldertree",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
