@@ -2,14 +2,23 @@
   "name": "copyfoldertree",
   "displayName": "copyfoldertree",
   "description": "Simplify copying your VS Code folder structure to text",
-  "publisher": "Marwan ElKhodary",
+  "icon": "assets/icon_resized.png",
+  "license": "MIT",
+  "publisher": "MarwanElKhodary",
   "repository": "https://github.com/MarwanElKhodary/copyfoldertree",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
   },
   "categories": [
+    "Keymaps",
     "Other"
+  ],
+  "keywords": [
+    "Folder Structure",
+    "Copy to Text",
+    "Tree View",
+    "Clipboard"
   ],
   "main": "./out/extension.js",
   "contributes": {

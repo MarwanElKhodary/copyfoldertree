@@ -46,11 +46,3 @@ No known issues so far.
 ### 1.0.0
 
 Initial release of copyfoldertree
-
----
-
-## License
-
-Please do not just copy and paste the source code. Feel free to use as inspiration.
-
-Copyright © 2024 Marwan ElKhodary.
